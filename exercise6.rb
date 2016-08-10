@@ -26,3 +26,9 @@ sorted_list = grocery_list.sort
 sorted_list.each do |item|
 puts "* #{item}"
 end
+
+sorted_list.delete("salmon")
+
+sorted_list.each do |item|
+puts "* #{item}"
+end
