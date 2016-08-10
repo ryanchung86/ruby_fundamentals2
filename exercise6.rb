@@ -20,3 +20,9 @@ else
 end
 
 puts grocery_list[1]
+
+sorted_list = grocery_list.sort
+
+sorted_list.each do |item|
+puts "* #{item}"
+end
